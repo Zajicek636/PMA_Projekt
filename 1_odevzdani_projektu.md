@@ -9,45 +9,52 @@
 
 ## Představení projektu
 
-Projekt se zaměřuje na návrh a ověření polo-automatizovaného systému pro pěstování hub, určeného primárně pro malé firmy a drobné podnikatele. Z důvodu časových a zdrojových omezení je aktuální realizace cílena jako **MVP (Minimum Viable Product) a pilotní projekt na 2 měsíce**, nikoliv jako plné komerční uvedení na trh včetně plného škálování a franšízového modelu.
+Projekt se zaměřuje na návrh a verifikaci polo-automatizovaného systému pro pěstování hub, určeného primárně pro sektor malých a středních podniků (SME) a drobné živnostníky. Vzhledem k restrikcím v oblasti časových a materiálních zdrojů je realizace v této fázi koncipována výhradně jako **Minimum Viable Product (MVP) a dvouměsíční pilotní projekt**, nikoliv jako komerční zavedení produktu zahrnující plošné škálování či franšízový model.
 
 **Hlavní cíle projektu:**
-- Navrhnout a sestavit funkční MVP systému.
-- Ověřit technickou a biologickou proveditelnost.
-- Připravit základní business model.
-- Otestovat řešení v pilotním nebo laboratorním režimu.
-- Předat doporučení pro další fázi rozvoje.
+- Návrh a sestavení plně funkčního MVP systému.
+- Verifikace technické a biologické proveditelnosti.
+- Vypracování výchozího obchodního (business) modelu.
+- Experimentální testování řešení v laboratorním či pilotním provozu.
+- Formulace podložených doporučení pro navazující fáze rozvoje.
 
-Cílovým trhem jsou malé firmy a podnikatelé, kterým má systém dlouhodobě snížit bariéru vstupu do komerčního pěstování hub.
+Cílovým tržním segmentem jsou firmy a podnikatelé, kterým má implementace tohoto systému snížit technologické a ekonomické bariéry pro vstup do oblasti komerčního pěstování hub.
 
 ## Trojimperativ projektu
 
-* **Rozsah (Scope):** Navržení, sestavení a zprovoznění funkčního MVP (Minimum Viable Product) polo-automatizovaného pěstebního systému. Zahrnuje technologický vývoj MVP, biologické ověření, základní ekonomický model a závěrečné vyhodnocení parametrů. Škálování a komerční nasazení u většího počtu zákazníků není do aktuálního scope zahrnuto (out of scope).
-* **Čas (Time):** Projekt je naplánován na **2 měsíce (8 týdnů)**. Harmonogram je nastaven tak, aby zohledňoval sladění biologického cyklu hub s fázemi technologického testování.
-* **Náklady (Cost):** [Doplňte odhadovaný rozpočet / finanční rámec týmu, jelikož ve zdrojové dokumentaci není výslovně definován přesný rozpočet]. Reálně zahrnuje náklady na HW komponenty, senzory a vývoj prototypu pro pilotní otestování.
+Trojimperativ (projektový trojúhelník) definuje základní omezení projektu v rovině rozsahu, času a nákladů při dodržení definovaných standardů kvality.
 
-## Hrubý časový odhad (Harmonogram)
+* **Rozsah (Scope):** Návrh, kompletace a zprovoznění pilotní verze (MVP) polo-automatizovaného pěstebního systému. Součástí výstupu je technologický vývoj, biologické ověření, základní ekonomický model a závěrečné vyhodnocení dosažených parametrů. Komerční nasazení u většího počtu klientů a tržní škálování nejsou předmětem této projektové fáze.
+* **Čas (Time):** Projektový rámec je stanoven na **2 měsíce (8 týdnů)**. Harmonogram inherentně zohledňuje restrikce plynoucí z biologického cyklu hub v logické návaznosti na technologické testování.
+* **Náklady (Cost):** Předpokládaný rozpočet projektu pro fázi vývoje a testování MVP činí **1 200 000 Kč**. Tento rozpočet vychází z běžných tržních cen za vývoj podobného IT/HW řešení a můžeme ho rozdělit do tří hlavních částí:
+    * **Personální náklady (1 000 000 Kč):** Práce pětičlenného týmu (role viz sekce 4) po dobu osmi týdnů. Částku jsme odhadli na základě průměrného nákladu zhruba 100 000 Kč (včetně odvodů firmou) na jednoho vývojáře/specialistu za měsíc.
+    * **Hardware a elektronika (100 000 Kč):** Nákup senzorů, mikrokontrolérů a další elektroniky nezbytné pro fungování automatizace. V rozpočtu počítáme s trošku dražšími součástkami kvůli extrémní vlhkosti u hub.
+    * **Materiál a provoz (100 000 Kč):** Peníze na nákup konstrukčního a izolačního materiálu pro sestavení testovací komory, pořízení substrátu a sadby hub a zaplacení elektřiny během dvouměsíčního pilotu u zákazníka.
 
-| Týden | Fokus a hlavní pracovní náplň |
+## Harmonogram prací
+
+Pro dodržení dvouměsíčního horizontu je projektový plán rozvržen do následujících osmi týdnů:
+
+| Týden | Klíčová oblast a náplň práce |
 |---|---|
-| **1.** | Scope MVP, přidělení rolí, identifikace rizik, výběr pěstebního scénáře |
-| **2.** | Biologické a technické požadavky, architektura řešení, výběr a specifikace komponent |
-| **3.** | Zajištění komponent, návrh automatizace, příprava testovacího prostředí |
-| **4.** | Sestavení testovacího prototypu, počáteční konfigurace, první interní testy |
-| **5.** | Ladění regulace systému, biologické ověření vhodnosti podmínek, návrh checklistů |
-| **6.** | Pilotní ověření, záznam anomálií a incidentů, korekce chyb, aktualizace ekonomického modelu |
-| **7.** | Zapracování nezbytných úprav, finalizace provozní dokumentace, příprava prezentace |
-| **8.** | Závěrečné vyhodnocení, shrnutí zbývajících rizik, předložení doporučení pro další fázi |
+| **1.** | Definice rozsahu MVP, přiřazení rolí, identifikace rizik, volba pěstebního scénáře |
+| **2.** | Specifikace biologických a technických požadavků, architektura řešení, definice komponent |
+| **3.** | Akvizice komponent, návrh automatizační logiky, příprava testovacího prostředí |
+| **4.** | Kompletace testovacího prototypu, výchozí konfigurace, první iterace interních testů |
+| **5.** | Kalibrace regulačního systému, biologická validace podmínek, tvorba provozních checklistů |
+| **6.** | Pilotní nasazení, monitoring anomálií a incidentů, korekce chyb, aktualizace finančního modelu |
+| **7.** | Aplikace revizních úprav, kompletace provozní dokumentace, příprava závěrečné prezentace |
+| **8.** | Závěrečné vyhodnocení, souhrnná zpráva o rizicích, formulace doporučení pro následný rozvoj |
 
 ## Přidělení rolí v projektovém týmu
 
-K zajištění plynulého chodu a jasných procesních odpovědností za dílčí agendy je využíván následující rámec projektových rolí:
+Pro zajištění efektivity řízení a jasného vymezení procesních odpovědností je uplatněn následující rámec projektových rolí:
 
-* **PM (Project Manager):** Řízení celého projektu, sledování definovaného rozsahu (scope), kontrola milníků, prezentace a finální komunikace.
-* **TECH (Technik / Architekt):** Návrh celkové technické architektury, výběr komponent, sestavení prototypu, testování stability a řešení mimořádných poruchových stavů.
-* **BIO (Biolog / Specialista profilu):** Definice úzkých biologických požadavků, kontrola a ověřování pěstebních podmínek (teplota, vlhkost, ventilace, hygiena).
-* **FIN (Finanční analytik):** Odhad nákladů pilotu, sestavení celého business modelu a identifikace klíčových ekonomických rizik.
-* **OPS (Provoz / Implementace):** Stanovení požadavků na samotný provoz, instalace řešení, servisní model řešení, provozní a předávací checklisty, pilotní nasazení u zákazníka.
+* **PM (Project Manager):** Zastřešení celého projektu, kontrola definovaného rozsahu, řízení milníků, formální prezentace a komunikace.
+* **TECH (Technik / Architekt):** Návrh celkové technické infrastruktury, integrace komponent, konstrukce prototypu, testování spolehlivosti a krizový management poruchových stavů.
+* **BIO (Biolog / Specialista profilu):** Stanovení biologických limitů, kontinuální verifikace pěstebních podmínek (teplotní gradient, vlhkostní křivky, ventilace, mikrobiální hygiena).
+* **FIN (Finanční analytik):** Kvantifikace nákladů pilotní fáze, formulace uceleného business modelu a predikce klíčových ekonomických rizik.
+* **OPS (Provoz / Implementace):** Specifikace provozních predikátů, fyzická instalace systému, návrh servisní podpory, tvorba předávacích protokolů a koordinace pilotního nasazení.
 
 Kopecký Patrik – PM  
 Michenka Adam – TECH  
@@ -57,45 +64,45 @@ Lunga Tomáš – OPS
 
 ## RACI matice
 
-Níže uvedená matice definuje míru zapojení jednotlivých rolí v konkrétních projektových fázích.  
+Níže uvedená matice definuje míru zapojení jednotlivých rolí v oblastech projektového řízení.  
 *(Legenda: **R** = Responsible/Zpracovatel, **A** = Accountable/Odpovědný schvalovatel, **C** = Consulted/Konzultován, **I** = Informed/Informován)*
 
 | Projektová aktivita a milníky | PM | TECH | BIO | FIN | OPS |
 |---|:---:|:---:|:---:|:---:|:---:|
-| Definice cílů a reálného scope MVP | A | R | C | C | C |
-| Vytvoření harmonogramu a milníků | A | R | I | I | I |
-| Identifikace stakeholderů a řízení rizik | A | C | C | C | R |
-| Definice biologických limitů a požadavků| C | C | R | I | A |
-| Výběr typu hub a pěstebního režimu | I | C | R | I | A |
-| Návrh technické architektury a struktury| C | R | C | I | A |
-| Výběr HW specifikací, senzorů a logiky | I | R | C | C | A |
-| Sestavení a konfigurace prototypu | I | R | C | I | A |
-| Testování stability a poruchových stavů | C | R | C | I | A |
-| Ověření biologické vhodnosti podmínek | I | C | R | I | A |
-| Návrh instalačního a provozního postupu | A | C | C | I | R |
-| Sestavení odhadu financí a business modelu| C | C | I | R | A |
-| Fyzické pilotní ověření řešení | C | R | C | I | A |
-| Závěrečné vyhodnocení a odevzdání | A | R | C | C | C |
+| Definice cílů a reálného rozsahu MVP | A | R | C | C | C |
+| Sestavení harmonogramu a milníků | A | R | I | I | I |
+| Identifikace stakeholderů a analýza rizik | A | C | C | C | R |
+| Stanovení biologických limitů a požadavků| C | C | R | I | A |
+| Volba typu hub a pěstebního paradigmatu | I | C | R | I | A |
+| Návrh technologické architektury a struktury| C | R | C | I | A |
+| Výběr HW specifikací a senzorické logiky | I | R | C | C | A |
+| Kompletace a konfigurace prototypu | I | R | C | I | A |
+| Zátěžové testování a modelování poruch | C | R | C | I | A |
+| Verifikace biologické vhodnosti prostředí | I | C | R | I | A |
+| Formulace instalačního a provozního protokolu | A | C | C | I | R |
+| Sestavení odhadu financí a obchodního modelu| C | C | I | R | A |
+| Fyzické pilotní ověření řešení v terénu | C | R | C | I | A |
+| Závěrečné vyhodnocení a formální odevzdání | A | R | C | C | C |
 
 ## Stakeholdeři a analýza angažovanosti
 
-Níže je uvedena analýza osob, skupin a organizací, které mohou být projektem ovlivněny, nebo přímo ovlivňují jeho úspěch.
+Níže je uvedena identifikace klíčových subjektů, skupin a organizací participujících z pozice projektu, či dotčených průběhem jeho implementace.
 
 ### Interní stakeholdeři
 
-| Stakeholder / Role | Hladina vlivu | Hlavní očekávání a zájem |
+| Stakeholder / Role | Hladina vlivu | Klíčová očekávání a zájem |
 |---|---|---|
-| **Projektový tým (PM, TECH, BIO, FIN, OPS)** | Vysoký | Úspěšné dokončení projektu na čas a v kvalitě funkčního MVP. Mají zájem o dobré hodnocení a technickou i biologickou proveditelnost. |
-| **Vedoucí předmětu / hodnotitel** | Vysoký | Validní a srozumitelný projektový výstup dle standardů zadání. Správná identifikace rizik, dobrá organizace, přítomnost harmonogramu a RACI matice. |
+| **Projektový tým (PM, TECH, BIO, FIN, OPS)** | Vysoký | Včasná realizace projektu a dodání kvalitního výstupu (MVP). Zajištění pozitivní klasifikace a empirická verifikace proveditelnosti. |
+| **Vedoucí předmětu / hodnotitel** | Vysoký | Odborně fundovaný projektový výstup, který reflektuje akademické standardy osnov. Důraz na systematickou přípravu, identifikaci rizik, aplikaci nástrojů (RACI) a přítomnost řídicí dokumentace. |
 
 ### Externí stakeholdeři
 
-| Stakeholder / Subjekt | Hladina vlivu | Hlavní očekávání a zájem |
+| Stakeholder / Subjekt | Hladina vlivu | Klíčová očekávání a zájem |
 |---|---|---|
-| **Pilotní zákazník** | Vysoký | Včasné dodání MVP do provozu, jednoduché používání, funkčnost a případná provozní podpora po čas celého testu. |
-| **Regulační a hygienické autority** | Vysoký | Striktní dodržení základních hygienických a bezpečnostních pravidel a platných předpisů pro nakládání s potravinami. |
-| **Budoucí zákazníci (malé firmy)** | Střední | Dosažení slibovaných parametrů MVP, vidina zajistit si nízkou bariéru vstupu do trhu a rozumnou nákladovost (ROI). |
-| **Dodavatelé substrátu / sadby** | Střední | Odběr materiálu, záchrana investic pomocí funkčního zacházení v navrženém MVP, dodržení biologických zásad. |
-| **Dodavatelé celých technologií a komponent**| Střední | Transparentnost a spolehlivost objednávek, jasné specifikace a zaplacení hardwarového vybavení. |
-| **Koncoví odběratelé hub** | Střední | Velmi stabilní objem dodávek hub, které nebudou poškozovat pěstební neduhy či špatná péče (vysoká jakost a hygiena). |
-| **Servisní partneři** | Nízký | Připravená zevrubná technická i provozní dokumentace s jasnými diagnostikami k udržování systému. |
+| **Pilotní zákazník** | Vysoký | Implementace spolehlivého MVP v domluveném termínu, uživatelská nenáročnost pěstebního cyklu a dostupnost profesionální technické garance v pilotu. |
+| **Regulační a hygienické orgány** | Vysoký | Bezpodmínečné dodržení platných hygienických, bezpečnostních a fytosanitárních předpisů nezbytných pro potravinářský provoz. |
+| **Drobní podnikatelé a firmy (SME)** | Střední | Validace cílových parametrů MVP k objektivní minimalizaci bariér vstupu do odvětví v budoucnu a zajištění prokazatelné návratnosti investice. |
+| **Dodavatelé sadby a substrátu** | Střední | Udržení stabilních dodavatelských partnerství s plošnou garancí profesionální péče o inokulované objemy a substráty. |
+| **Dodavatelé automatizace a HW logiky**| Střední | Transparentnost akvizičních procesů, jednoznačná technická definice prvků zakázky a korektní plnění objemových závazků. |
+| **Koncoví odběratelé hub na trhu** | Střední | Konzistentní produkce standardizované senzorické kvality prostá mikrobiálních a fytosanitárních anomálií s garantovanou úrovní nezávadnosti. |
+| **Servisní organizace** | Nízký | Zpracování sofistikované a instruktážně-přehledné technické dokumentace pro eventualitu systémové diagnostiky a údržby. |
